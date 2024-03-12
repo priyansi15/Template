@@ -1,0 +1,859 @@
+*{
+    font-family:'roboto scale';
+}
+.flex-container {
+    display: flex;
+    background-color:Blue;
+    border-radius: 5%;
+    margin:20px 120px;
+    padding: 20px;
+    height: auto;
+    width: 80%;
+    justify-content: space-around;
+
+}
+
+.flex-container > div {
+  background-color:blue;
+  margin: 5px;
+  padding: 0px;
+  font-size: 30px;
+    width:60%
+}
+.div1{
+    color:white;
+    background-color:blue;
+    text-align:center;
+    padding:20px;
+    
+}
+.divbtn {
+    color: blue;
+    background-color:#F2F3F4;
+    height: 50px;
+    width: 200px;
+    border-color: white;
+    border-width: 2px;
+    /*margin-left: 45%;*/
+    /*margin-top: 25px;*/
+    border-radius: 5%;
+    font-size: 20px;
+    text-align:center;
+}
+.divbtn:hover
+{
+    background-color:blue;
+    color:yellow;
+    border-color:white;
+}
+div>.div2{
+    background-color:white;
+    border-radius: 5%;
+}
+.div2 img{
+    margin-top:25px;
+    height:380px;
+    width:80%;
+    padding:0px;
+    justify-content:center;
+   
+}
+
+
+
+.setcontent{
+    text-align:center;
+    color:black;
+    margin:30px;
+    padding:30px;
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    text-decoration-line:none;
+    font-size:25px;
+}
+.flex2>div:hover
+{
+    background-color:blueviolet;
+    color:white;
+}
+.flex3{
+    display:flex;
+    background-color:white;
+    margin:20px 60px;
+    padding:0px;
+    
+}
+.flex3>div
+{
+    background-color:white;
+    color:black;
+    padding:0px 0px;
+    margin:10px 20px;
+    width:60%;
+    height:490px;
+    border-width:3px;
+   border-radius:15%;
+   justify-content:center;
+   object-fit:cover;
+
+}
+.flex3>div img{
+    height:250px;
+    width:400px;
+    border-radius:15%;
+    margin:10px;
+    padding:initial;
+    transition-duration:1.2s;
+    background-attachment:fixed;
+    
+}
+/*.flex3>div:hover
+{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 
+}*/
+
+.flex4{
+    display:flex;
+    background-color:white;
+    margin:15px 120px;
+
+}
+.flex4>div
+{
+    background-color:white;
+    color:black;
+    padding:10px 10px;
+    margin:10px 20px;
+    width:50%;
+    height:300px;
+    border-width:3px;
+   border-radius:5%;
+}
+div.c1div
+{
+    background-color:lightpink;
+    text-align:center;
+    font-size:25px;
+    
+}
+div.c2div{
+    background-color:lightblue;
+    text-align:center;
+    font-size:25px;
+
+}
+.flex5{
+    background-color:white;
+    display:flex;
+    margin:10px 140px;
+}
+.flex5>div{
+   background-color:white;
+    color:black;
+    padding:10px 10px;
+    margin:10px 20px;
+    width:60%;
+    height:200px;
+    border-width:3px;
+   border-radius:5%;
+
+}
+div.svg1{
+    text-align:center;
+    padding:0px;
+}
+ .footdiv1{
+     display:flex;
+     background-color:#e8eff6;
+
+ }
+ .footdiv1>div{
+     background-color:#e8eff6;
+     color:black;
+    padding:10px 10px;
+    margin:10px 20px;
+    height:70px !important;
+    border-width:3px;
+   border-radius:5%;
+}
+  /*.divv1{
+      width:20% !important;
+  }*/
+ 
+ .subbtn:hover{
+     background-color:#ccff00;
+     color:white;
+ }
+ .last{
+     display:flex;
+     background-color:#e8eff6;
+     margin:5px 50px;
+ }
+ .last>div{
+     background-color:#e8eff6;
+     margin:10px 10px;
+     padding:10px 10px;
+     width:20%;
+     height:250px;
+     justify-content:space-around;
+ }
+ .div ldiv1
+ {
+   width:70%;
+ }
+ .footer{
+     background-color:#e8eff6;
+     
+ }
+ .footerdiv{
+     width:95%;
+     height:550px;
+     margin:20px 35px;
+ }
+ a12
+ {
+     display:inline-block;
+     text-decoration-line:none;
+     flex-grow: 1;
+     order: 10;
+     font-size:20px;
+     color:black;
+
+ }
+ a12:hover{
+     color:#feb605;
+ }
+/*new css*/
+ .a12
+ {
+     display:inline-block;
+     text-decoration:none;
+     flex-grow: 1;
+    order: 10;
+   font-size:20px;
+   color:black;
+   justify-content:center;
+
+ }
+ .a12:hover{
+     color:white;
+ }
+        .auto-style1 {
+            width: 500px;
+        }
+        .auto-style2 {
+            width: 81px;
+        }
+        .btn{
+            background-color:white;
+            border-radius:10%;
+            width:120px;
+            height:60px;
+            font-size:20px;
+            font-family:'Roboto';
+            box-shadow:10px 10px 15px 0px;
+            font-weight:700;
+             margin-left:60px;
+
+        }
+        .btn:hover
+        {
+            background-color:#FEB605;
+        }
+        .simg{
+            border-radius:50%;
+            width:20%;
+            height:20%;
+        }
+        .text
+        {
+            margin-left:220px;
+        }
+        .set {
+            text-align: center;
+            font-size: 40px;
+            text-decoration: none;
+            font-weight:700;
+            background-color:white;
+            padding-top:20px;
+            margin-top:50px;
+            position:relative;
+            padding:20px 20px;
+            display:inline-grid;
+        }
+        .set:hover{
+            text-decoration:underline;
+            color:blue;
+}
+        .zoom {
+  padding: 50px;
+  transition: transform .2s;
+  margin: 0 0px 0 32px;
+        }
+
+.zoom:hover {
+  -ms-transform: scale3d(1.2); /* IE 9 */
+  -webkit-transform: scale3d(1.2); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+.table1
+{
+    width:100%;
+    border-color:#F2F3F4;
+    background-color:#F2F3F4
+}
+.table1 td{
+    padding:20px 20px;
+   
+}
+.table2 img{
+    padding:10px 10px;
+    display:inline-grid;
+    align-items:baseline;
+}
+.table1 img{
+    border-style:none;
+    border-width:3px;
+    border-color:white;
+}
+        
+        .auto-style4 {
+            width: 251px;
+        }
+        
+        .auto-style5 {
+            width: 435px;
+        }
+        
+        .btn2{
+    color:blue; 
+    background-color: white;
+    height: 50px; 
+    width: 200px;
+    border-color: blue; 
+    border-width: 2px; 
+    margin-left:45%;
+    margin-top:25px;
+    border-radius:5%;
+    
+    font-size:20px;
+ }
+ .btn2:hover
+ {
+     background-color:blue;
+     color:white;
+ }
+        
+ .flex2{
+    display:flex;
+    background-color:white;
+    margin-left:172px;
+    height: auto;
+    width: 1151px;
+}
+.flex2>div
+{
+    background-color:white;
+    color:black;
+    padding:10px 10px;
+    margin:10px 20px;
+    width:28%;
+    height:275px;
+    border-style:groove;
+    border-width:3px;
+    border-color:blue;
+    border-radius:15%;
+}
+.content{
+    text-align:center;
+    color:black;
+    margin:30px;
+    padding:30px;
+   height: 300px;
+    /*justify-content:center;*/
+    /*align-items:center;*/
+    /*display:flex;*/
+}
+.flexheader
+{
+    background-color:blueviolet;
+    display:flex;
+}
+.flexheader>div{
+    width:30%;
+    background-color:white;
+    justify-content:space-between;
+    height:120px;
+}
+    div.divv1{
+      width:25%;
+  }
+  div.divv2{
+      width:75%;
+  }
+ .subbtn:hover{
+     background-color:#ccff00;
+     color:white;
+ }
+ .logoset{
+    padding:0;
+    margin-top:15px;
+    margin-left:85px;
+    background-color:white;
+    color:white;
+    width:24% !important;
+
+ }
+ .footdiv1{
+     display:flex;
+     background-color:#e8eff6;
+
+ }
+ .footdiv1>div{
+     background-color:#e8eff6;
+     color:black;
+    padding:10px 10px;
+    margin:10px 20px;
+    height:70px !important;
+    border-width:3px;
+   border-radius:5%;
+}
+.header
+ {
+    
+    background-color:white;
+    display: flex;
+ }
+ .header>div
+ {
+    height:70px;
+    justify-content: space-around;
+    background-color: white;
+    margin: 10px 10px;
+    padding: 20px 20px;
+ }
+ 
+.headerdiv2 
+{
+    width:70%;
+    margin-top: 30px;
+    justify-content:center;
+}
+ul#menu {
+    font-size: 1.50em;
+    font-weight: 600;
+    padding: 0;
+    text-align: center;
+    margin-top:18px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+/*.tab1img
+ {
+    width:101%; 
+    height: 500px;
+     margin-left: 30px;
+ }*/
+ .tab1{
+    width:100%;
+    background-color:#548888;
+ }
+ .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+.mySlides 
+{
+    display:none;
+    
+}
+
+.imgg
+{
+    width:101%; 
+                height: 500px;
+                 margin-left: 30px;
+}
+.col
+{
+    width:800px;
+}
+.flex-col {
+       display: flex;
+       flex-direction:row;
+       flex-flow: wrap;
+       background-color:#F2F3F4;
+       border-radius: 0%;
+       margin:20px 0px;
+       padding: 20px;
+       height: 280px;
+       width: 100%;
+       justify-content: space-around;
+   }
+   
+   .imagecol {
+     background-color:#F2F3F4;
+     margin: 5px;
+     padding: 0px;
+     font-size: 30px;
+       width: 15%;
+   }
+   .new
+   {
+    display: none;
+   }
+  
+   .mySlides1, .mySlides2 {display: none}
+   img {vertical-align: middle;}
+   
+   /* Slideshow container */
+   .slideshow-container {
+     max-width: 1000px;
+     position: relative;
+     margin: auto;
+   }
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     padding: 16px;
+     margin-top: -22px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   /* On hover, add a grey background color */
+   .prev:hover, .next:hover {
+     background-color: #f1f1f1;
+     color: black;
+   }
+   .text1
+   {
+    margin-left:45%
+   }
+
+
+ /*Responsive css*/
+
+ @media only screen and (max-width: 600px){
+
+    .header
+    {
+        width:400%;
+        height:150px;
+    }
+    .headerdiv1
+    {
+      width: 20%;
+      align-self: center;
+      display:flex;
+    }
+    .headerdiv2
+    {
+        width:0%;
+        display:none;
+       }
+    
+    .logoset
+    {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .tab1
+    {
+        width:450%;
+        height:400px;
+    }
+    .auto-style1
+    {
+        display:inline-block;
+        width:200px;
+    }
+    .imgg
+    {
+        width:200px;
+        height:300px;
+    }
+    .auto-style2
+    {
+        display: none;
+    }
+    ul#menu
+    {
+        display: none;
+    }
+    .col{
+        width:360px;
+    }
+    .flex-col{
+        width:100%;
+        background-color:#F2F3F4;
+        height:auto;
+    }
+    .imagecol
+    {
+        width:40%;
+        gap:20px;
+    }
+    .new
+    {
+        display: block;
+    }
+    .table2
+    {
+        display: none;
+    }
+    .text
+    {
+        
+        margin-left: 30px;
+    }
+    .set
+    {
+        font-size:30px;
+
+    }
+    .a2 img
+    {
+        width:200px;
+        height:200px;
+    }
+    .btn2{
+        margin-left: 35%;
+    }
+    .flex-container
+    {
+        flex-direction: row;
+        flex-flow: wrap;
+        width:80%;
+        margin-left: 35px;
+    }
+    .flex2
+    {
+        
+        flex-direction: row;
+        flex-flow: wrap;
+        width: 80%;
+        margin-left:80px;
+        height: auto;
+    }
+    .flex2>div
+    {
+        width: 300px;
+    }
+    .flex3
+    {
+        flex-direction: row;
+        flex-flow:wrap;
+        width:80%;
+        height:auto;
+        margin-left:20px;
+    }
+    .flex3>div
+    {
+        width:100%;
+    }
+   .flex4
+   {
+    flex-direction: row;
+        flex-flow:wrap;
+        width:80%;
+        height:auto;
+        margin-left:50px;
+   }
+   .flex4>div
+   {
+    width:100%;
+    height:auto;
+    
+   }
+   .text1
+   {
+    margin-left: 28%;
+   }
+   .btn2
+   {
+    margin-left: 28%;
+   }
+   .flex5
+   {
+    flex-direction: row;
+        flex-flow:wrap;
+        width:80%;
+        height:auto;
+        margin-left:75px;
+   }
+   .flex5>div
+   {
+    width: 30%;
+    height:auto;
+    
+   }
+   .footer
+   {
+    width:108%; 
+    height:1800px;
+   }
+   .footerdiv
+   {
+    height:300px;
+    width: 100%;
+   }
+   .footdiv1
+   {
+    flex-direction: row;
+        flex-flow:wrap;
+        width:100%;
+        height:65%;
+        }
+        .footdiv1>div1
+        {
+            height:fit-content;
+        }
+   
+   
+   div.divv1
+   {
+    width:100%;
+    height:0px;
+   }
+   div.divv2
+   {
+    width:100%;
+    height:150px !important;
+    padding:5px;    
+   }
+   .subbtn
+   {
+    margin-top:10px;
+    margin-left: 17px !important;
+   }
+   .last
+    {
+        
+        flex-direction: row;
+        flex-flow: wrap;
+        width: 100%;
+        margin-left:0px;
+        height: auto;
+    }
+    .last>div
+    {
+        width:100%;
+    }
+
+ }
+
+ @media only screen and (max-width: 526px)    
+ {
+    .imgg
+    {
+        width:232px;
+        height:398px;
+    }
+    .tab1
+    {
+        width:450%;
+        height:450px;
+    }
+    .col
+    {
+        width: 300px;
+    }
+    .flex-col{
+        width:100%;
+        background-color:#F2F3F4;
+        height:auto;
+    }
+    .imagecol
+    {
+        width:40%;
+        gap:20px;
+    }
+    .set
+    {
+        font-size:22px;
+        padding: 5px 0px;
+
+    }
+    .text
+    {
+        
+        margin-left: 25px;
+    }
+    .a2 img
+    {
+        width:200px;
+        height:200px;
+        margin-left: 93px;
+    }
+ }
+ @media only screen and (max-width: 565px)  
+ {
+    .a2 img
+    {
+        width:200px;
+        height:200px;
+        margin-left:22px;
+    }
+    .set
+    {
+        margin-left:0px;
+    }
+    @media only screen and (max-width: 450px) 
+    {
+        .footdiv1
+        {
+         flex-direction: row;
+             flex-flow:wrap;
+             width:100%;
+             
+        }
+        
+        .divv1
+        {
+         width:100%;
+         height:100px;
+        }
+        .divv2
+        {
+         width:100%;
+         height:500px;
+         padding:5px;    
+        }
+        .a2 img
+        {
+            width:150px;
+            height: 150px;
+        }
+        .set
+        {
+            padding: 10px 10px;
+            margin-left: 10px;
+        }
+       .last
+        {
+            margin-top: 50px;
+            padding: 10px;
+            width: 100%;
+        }
+    } 
+ 
+
+}

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="Content/Template.css" rel="stylesheet" type="text/css" />
+    <link href="Template/NewHome.css" rel="stylesheet" type="text/css" />
+   
+   
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    </head>
+</asp:ContentPlaceHolder>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+<body>
+    <form id="form1" runat="server">
+
+        <div class="header">
+            
+    <div class="headerdiv1">
+    <div class="logoset">
+    <img src="Images/Logo.png"/>
+     </div>
+         </div>
+     
+         <div class="headerdiv2">
+        <ul id="menu" id="myTopnav">
+ <div class="dropdown"> 
+                 
+                         <ul>
+                             <li class="dropbtn" >
+                                 Product
+ 
+                             </li>
+                             </ul>
+ 
+                         
+                 <div class="dropdown-content">
+                                 <a href="#">School Solutions   </a>
+                                 <a href="#">Accessories</a>
+                                 <a href="#">Cookware</a>
+                                 <a href="#">Culinary</a>
+                                 <a href="#">University Solutions</a>
+                                 
+                             </div>
+                             </div> 
+              <li><a href="#">Best Deals</a></li>
+             <li><a href="#">Paper & NoteBooks</a></li>
+             <li ><a href="#">Office Desk</a></li>
+             <li><a href="#">Pages</a></li>  
+             
+ 
+             </ul>
+ 
+         </div></div></div>
+ 
+ 
+       <div class="tab1"> 
+     <table>
+        <tr>
+            <td class="auto-style2"></td>
+           
+            <td class="auto-style1">
+                <img src="Images/homePic.png" class="imgg"   />
+            </td>
+        <td class="col">
+            <h1 style="color:white; margin-left:60px;">Back to school sale upto 50%</h1>
+            <p style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-left:60px;
+                      font-size:40px;color:white;">
+                Everything for office & school supplies </p>
+              <button class="btn" style="z-index: -2">Shop Now</button>
+        </td>
+           
+            </tr>
+        </table >
+    </div>
+    
+    <div class="flex-col">
+
+        <div class="zoom imagecol"> <img src="Images/s1.jpg" style="height: 157px; width: 157px; border-radius:50%;margin-left:20px;margin-top:0px"   /><br />
+            <h4 style="text-align:center">Paper</h4></td></div>
+    <div class="zoom imagecol"><img src="Images/s2.jpg" style="height: 157px; width: 157px; border-radius:50%;margin-left:20px;margin-top:0px" />
+        <h4 style="text-align:center">Pen&#39;s &amp; writing</h4></div>
+    <div class="zoom imagecol"><img src="Images/s3.png" style="border-radius:50%;margin-left:20px; width: 157px; height: 157px;margin-top:00px" />
+        <h4 style="text-align:center">Desk</h4></div>
+    <div class="zoom imagecol"> <img src="Images/s4.jpg" style="border-radius:50%;margin-left:20px; width: 157px;height:157px;margin-top:00px"/> 
+        <h4 style="text-align:center">File & Folders</h4></td></div>
+    <div class="zoom imagecol"> <img src="Images/s5.jpg" style="border-radius:50%;margin-left:20px;margin-top:0px; width: 157px; height:157px;"/>
+        <h4 style="text-align:center">Desk accesories</h4></div>
+    <div class="zoom imagecol"> <img src="Images/s6.jpg" style="border-radius:50%;width: 157px; height: 157px; margin-left:22px;margin-top:00px"/>
+        <h4 style="text-align:center">Calender</h4></div>
+
+  </div>
+
+
+
+
+
+<div class="new">
+
+  <div class="slideshow-container">
+    <div class="mySlides1">
+        <img src="Images/Banner-1.jpg"  style="margin-top:80px; width:100%;"/>
+    </div>
+  
+    <div class="mySlides1">
+        <img src="Images/Banner-4.jpg"  style="margin-top:80px;width:100%;" />
+    </div>
+  
+    <div class="mySlides1">
+        <img src="Images/Banner-5.jpg"  style="margin-top:80px;width:100%;" />
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+  </div>
+  
+
+  <script>
+    let slideIndex = [1,1];
+    let slideId = ["mySlides1"]
+    showSlides(1, 0);
+    showSlides(1, 1);
+    
+    function plusSlides(n, no) {
+      showSlides(slideIndex[no] += n, no);
+    }
+    
+    function showSlides(n, no) {
+      let i;
+      let x = document.getElementsByClassName(slideId[no]);
+      if (n > x.length) {slideIndex[no] = 1}    
+      if (n < 1) {slideIndex[no] = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex[no]-1].style.display = "block";  
+    }
+    </script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+     <div class="table2">
+            <table style="width:100%">
+        <tr>
+            <td class="auto-style5">
+                <img src="Images/Banner-1.jpg" class="zoom" style="margin-top:80px;"/>
+    </td>
+            <td class="auto-style4">
+                <img src="Images/Banner-4.jpg" class="zoom" style="margin-top:80px;" />
+
+            </td>
+            <td> <img src="Images/Banner-5.jpg" class="zoom" style="margin-top:80px;" /></td>
+        </tr>
+    </table>
+        </div>
+
+     <div class="text">   
+     <table style="width:100%;margin-top:50px;">
+        <tr>
+           
+            <td class="set text">  Popular</td>
+            <td class="set">Best seller</td>
+            <td class="set">Top rated</td>
+            
+        </tr>
+    </table></div>
+
+    <div class="a2">
+        
+
+        <img src="Images/n1.png" class="zoom"  />
+        
+
+        <img src="Images/n2.png" class="zoom"/>
+
+        <img src="Images/n3.png"class="zoom" />
+
+        <img src="Images/n4.png" class="zoom" />
+   
+        <img src="Images/n5.png" class="zoom" />
+        <img src="Images/s1.jpg" class="zoom"/>
+        <img src="Images/s6.jpg" class="zoom"/>
+        <img src="Images/n6.png" class="zoom"/>
+        
+    </div>
+
+    <button class="btn2" >
+        See More Products
+    </button>
+
+    <div class="flex-container">
+       
+        <div class="div1">
+            <h3>Deals of the week</h3>
+            <h2>Back to school</h2>
+            <h3>Sales up to _____</h3>
+            <h1 style="color:yellow">30%</h1>
+            <h2>______All peoducts</h2>
+            <button class="divbtn">View All</button>
+        </div>
+        
+        
+         <div class="div2">
+              <img src="Images/Gold-4.png" class="zoom"/>
+              <h3 style="text-align:center;">Notebook with pen</h3>
+          </div>
+        <div class="div2">
+            <img src="Images/Gold-5.png" class="zoom" />
+
+            <h3 style="text-align:center;">Computer Desk</h3>
+        </div>
+         
+    </div><br /><br />
+
+        <div class="flex2">
+        <div class="content">
+            <img src="Images/icon1.png" style="height: 80px; width: 80px" />
+            <h1>School Solutions</h1>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut feugiat mi. Nunc tincidunt, ante rutrum varius mollis.</h4>
+            <a href="#" class="a12">Read More</a>
+        </div>
+
+        <div class="content">
+            <img src="Images/icon2.png" style="height: 80px; width: 80px" />
+           
+            <h1>Office Solutions</h1>
+             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut feugiat mi. Nunc tincidunt, ante rutrum varius mollis.</h4>
+            <a href="#" class="a12">Read More</a>
+
+        </div>
+
+        <div class="content">
+        <img src="Images/icon3.png" style="height: 80px; width: 80px" />
+        <h1>University Solutions</h1>
+         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut feugiat mi. Nunc tincidunt, ante rutrum varius mollis.</h4>
+            <a href="#" class="a12">Read More</a></div>
+   
+
+    </div><br />
+    <br />
+
+     <h1 style="text-align:center;font-size:40px;" class="text">From our blogs</h1>
+    <div class="flex3">
+
+        <div>
+            <img src="Images/Blog-1.png" class="zoom" />
+            <h4 style="text-align:center;">JAN 18, 2020</h4>
+            <h2 style="text-align:center;">The Best School Supplies For Remote Learning</h2>
+             <a href="#" class="setcontent">Read More</a>
+
+        </div>
+        <div>
+            <img src="Images/Blog-2.png" class="zoom"  />
+            <h4 style="text-align:center;">JAN 19, 2020</h4>
+            <h2 style="text-align:center;">Necessary School Supplies For The New School Year</h2>
+             <a href="#" class="setcontent">Read More</a>
+
+        </div>
+        <div>
+            <img src="Images/Blog-3.png" class="zoom"/>
+            <h4 style="text-align:center;">JAN 20, 2020</h4>
+            <h2 style="text-align:center;">How To Organize Your School Supplies Know Here</h2>
+             <a href="#" class="setcontent">Read More</a>
+
+        </div>
+ </div>
+
+    <button class="btn2">
+            See More Articles
+        </button>
+    <br /><br /><br />
+
+    <h1  class="text1">Our Client Say</h1>
+
+    <div class="flex4">
+
+        <div class="c1div">
+
+            <img src="Images/star2.jpg" style="width: 182px;background-color:lightpink;"/>
+            <br />
+            <br />
+            
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+
+        </div>
+
+        <div class="c2div">
+
+            <img src="Images/star3.jpg" style="width:182px; "/>
+            <br />
+            <br />
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip consequat.
+        </div>
+                </div>
+
+    <div class="flex5">
+        <div class="svg1">
+            <img src="Images/svg1.png" style="height: 50px; width: 50px;" />
+
+            <h1>Free Shipping</h1>
+            <h4>Free shipping on all orders from $59</h4>
+        </div>
+
+
+        <div class="svg1">
+            <img src="Images/credit-card.png"  style="height: 50px; width: 50px;"/>
+            <h1>Safe Payments</h1>
+            <h4>100% Secure Payments</h4>
+        </div>
+
+
+         <div class="svg1">
+             <img src="Images/surprise.png"  style="height: 50px; width: 50px;"/>
+            <h1>Discount Coupons</h1>
+            <h4>Enjoy Huge Pramotions</h4>
+        </div>
+
+
+         <div class="svg1">
+             <img src="Images/speech-bubble.png" style="height: 50px; width: 50px;"/>
+            <h1>Quanlity Support</h1>
+            <h4>24/7 Support</h4>
+        </div>
+
+
+    </div>
+
+
+</asp:Content>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+       
+        </asp:ContentPlaceHolder>
+        <div class="footer">
+            <div class="footerdiv">
+        <div class="footdiv1">
+            <div class="divv1">
+                <img src="Images/Logo.png" style="margin-left:80px;"/>
+
+            </div>
+
+            <div class="divv2">
+                <h3> Subscribe And Get 20% Off Your First Purchase.
+                    <input type="email" style="height:40px;width:250px;border-radius:8%;font-size:15px;margin-left:15px" placeholder="Enter Your Email"/>
+                    <input type="submit" class="subbtn" style=" background-color:blue;color:white;font-weight:700;height:40px;width:150px;border-radius:8%;font-size:15px;margin-left:1px;"/>
+                    
+                </h3>
+                
+            </div>
+        
+
+        </div>
+        <hr />
+
+        <div class="last">
+           
+             <div class="ldiv1">
+                <h2>Need Help!</h2>
+                <h4>We Promise We’ll Get Back To You Promptly Your Gifting
+                    Needs Are Always On Our Minds!</h4>
+                <h4> Hotline: +1 515 323 6290<br /><br />
+                Monday – Friday: 9:00-20:00
+                    Saturday: 11:00 – 15:00<br /><br />
+                Email: support@gmail.com</h4>
+            </div>
+            
+            
+            <div>
+                <h2>Company</h2>
+                <h4>About Us<br /><br />
+                Store Reviews<br /><br />
+                Opratopns Status<br /><br />
+                    FAQs </h4>
+
+            </div>
+                
+            <div>
+                <h2>Gift Cards</h2>
+                <h4>Purchase Gift Card<br /><br />
+                Redeem Gift Card<br /><br />
+                Gift Card FAQs<br /><br />
+                    FAQs </h4>
+
+            </div>
+       
+            
+            
+            <div>
+                <h2>Follow Us</h2>
+                <h4>Facebook<br /><br />
+                Pinterest<br /><br />
+                Instagram<br /><br />
+                Tik Tok<br /><br />
+                    You Tube
+
+                </h4>
+
+            </div>
+
+           
+            <div>
+                <h2>Custom Services</h2>
+                <h4>Delivery<br /><br />
+                Returns and Complaints<br /><br />
+                Cookie Poicy<br /><br />
+                Pixel Disclaimer<br /><br />
+                    Compitition Terms
+
+                </h4>
+
+            </div>
+       
+         </div><br />
+            <hr />
+        <h3>Copyright © 2024, Eduma Powered by ThimPress</h3><br /><br />
+        </div>
+        </div>
+            
+    </form>
+</body>
+</html>
+</asp:Content>
